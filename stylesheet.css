@@ -4,7 +4,52 @@
 
 body {
   margin: 0;
-  font-family: "Lucida Grande";
+  padding: 0;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  background-color: rgba(76, 209, 55, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  color: white;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+  padding-top: 10px;
+  font-family: Comic Sans MS;
+}
+
+.header-right {
+  float: right;
+  padding-top: 10px;
+/*  margin-right: -25px;*/
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 1s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  display: none;
 }
 
 a {
@@ -17,36 +62,41 @@ a {
 
 .container {
   max-width: 1170px;
+  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
 
 .top-wrapper {
-  padding: 180px 0 100px 0;
-  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  padding: 180px 0 180px 0;
+  background-color: #4cd137;
   background-size: cover;
   color: white;
   text-align: center;
+  transition: all 1s;
+  font-family: Comic Sans MS;
 }
 
 .top-wrapper h1 {
-  opacity: 0.7;
-  font-size: 45px;
-  letter-spacing: 5px;
-  margin-bottom: 10px;
+  /*opacity: 0.7;*/
+  font-size: 75px;
+  padding: 0;
+/*  font-family: */
+/*  margin-bottom: 5px;*/
 }
 
 .top-wrapper p {
-  opacity: 0.7;
+/*  opacity: 0.7;*/
+  font-size: 30px; 
   margin-bottom: 3px;
 }
 
-.btn-wrapper {
+/*.btn-wrapper {
   text-align: center;
   margin: 20px 0;
-}
+}*/
 
-.btn-wrapper p {
+/*.btn-wrapper p {
   margin: 10px 0;
 }
 
@@ -61,7 +111,7 @@ a {
 
 .twitter {
   background-color: #55acee;
-}
+}*/
 
 .btn {
   padding: 12px 24px;
@@ -80,54 +130,14 @@ a {
   margin-right: 5px;
 }
 
-header {
-  height: 65px;
-  width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
-  position :fixed;
-  top: 0;
-  z-index: 10;
-}
-
-.logo {
-  width: 124px;
-  margin-top: 20px;
-}
-
-.header-left {
-  float: left;
-}
-
-.header-right {
-  float: right;
-  margin-right: -25px;
-}
-
-.header-right a {
-  line-height: 65px;
-  padding: 0 25px;
-  color: white;
+.menu-icon {
   display: block;
-  float: left;
-  transition: all 0.5s;
-}
-
-.header-right a:hover {
-  background-color: rgba(255, 255, 255, 0.3);
-}
-
-.menu-icon{
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display: none;
 }
 
 .lesson-wrapper {
   padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
+  /*padding-left: 5%;
+  padding-right: 5%;*/
   background-color: #f7f7f7;
   text-align: center;
 }
@@ -144,12 +154,18 @@ header {
 
 .lesson {
   float: left;
-  width: 25%;
+  width: 18%;
+  height: 250px;
+  margin: 0 10px;
+  padding: 15px 10px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(184, 184, 148, .7);
 }
 
-.lesson-icon {
+/*.lesson-icon {
   position: relative;
-}
+}*/
 
 .lesson-icon p {
   position: absolute;
@@ -170,12 +186,6 @@ header {
   font-weight: normal;
 }
 
-.message-wrapper {
-  border-bottom: 1px solid #eee;
-  padding-bottom: 80px;
-  text-align: center;
-}
-
 .message {
   padding: 15px 40px;
   background-color: #5dca88;
@@ -189,16 +199,28 @@ header {
   box-shadow: none;
 }
 
-footer img {
-  width: 125px;
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-color: #4cd137;
+}
+
+footer h2 {
+	color: white;
+	font-family: Comic Sans MS;
 }
 
 footer p {
-  color: #b3aeb5;
-  font-size: 12px;
+  color: white;
+  font-size: 20px;
 }
 
-footer {
-  padding-top: 30px;
-  padding-bottom: 20px;
+hr {
+	width: 90%;
+}
+
+.copyright {
+	text-align: center;
+	color: white;
 }
