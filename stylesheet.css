@@ -30,7 +30,7 @@ header {
 .header-right {
   float: right;
   padding-top: 10px;
-/*  margin-right: -25px;*/
+  margin-right: -25px;
 }
 
 .header-right a {
@@ -78,25 +78,24 @@ a {
 }
 
 .top-wrapper h1 {
-  /*opacity: 0.7;*/
+  opacity: 0.7;
   font-size: 75px;
   padding: 0;
-/*  font-family: */
-/*  margin-bottom: 5px;*/
+  margin-bottom: 5px;
 }
 
 .top-wrapper p {
-/*  opacity: 0.7;*/
+  opacity: 0.7;
   font-size: 30px; 
   margin-bottom: 3px;
 }
 
-/*.btn-wrapper {
+.btn-wrapper {
   text-align: center;
   margin: 20px 0;
-}*/
+}
 
-/*.btn-wrapper p {
+.btn-wrapper p {
   margin: 10px 0;
 }
 
@@ -136,8 +135,8 @@ a {
 
 .lesson-wrapper {
   padding-bottom: 80px;
-  /*padding-left: 5%;
-  padding-right: 5%;*/
+  padding-left: 5%;
+  padding-right: 5%;
   background-color: #f7f7f7;
   text-align: center;
 }
@@ -163,9 +162,9 @@ a {
   box-shadow: 0 0 5px rgba(184, 184, 148, .7);
 }
 
-/*.lesson-icon {
+.lesson-icon {
   position: relative;
-}*/
+}
 
 .lesson-icon p {
   position: absolute;
